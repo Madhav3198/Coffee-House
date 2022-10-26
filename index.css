@@ -1,0 +1,96 @@
+html{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: 'Lora', serif;
+font-family: 'Roboto Mono', monospace;
+}
+#container{
+  margin-top: -5px;
+  display: flex;
+  flex-direction: row;
+}
+#buy{
+  width: 50px;
+  height: 30px;
+  font-size: 15px;
+  border-radius: 2px;
+  border: 0.5px solid gray;
+  cursor: pointer;
+}
+#menu{
+  width: 50%;
+}
+#bill{
+  position: relative;
+  width:30%;
+  height: 540px;
+  margin: auto;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+#bill h2{
+  text-align: center;
+}
+#labels{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#qty-option{
+  width: 32px;
+  height: 19px;
+}
+#menu1{
+	width: 80%;
+	margin-top: 20px;
+  margin-left: 62px;
+	border: none;
+	text-align: center;
+}
+#menu1 td{
+  border: 1px solid black;
+}
+table td{
+	padding: 5px;
+	margin: 0;
+ 
+	}
+ #bill-1 td{
+  padding: 5px;
+	margin: 0;
+ } 
+
+table th{
+	padding: 5px;
+	margin: 0;
+  border: none;
+	}
+#bill-table{
+  width: 100%;
+	margin-top: 20px;
+	border: none;
+	text-align: center;
+}
+#bill-table td{
+  border: none;
+}
+#total_bill{
+  margin:0px;
+  margin-left: 100px;
+}
+h4{
+  font-size: 20px;
+  margin: 0px;
+}
+#confirm{
+  width: 180px;
+  height: 43px;
+  margin-top: 45px;
+  margin-right: 48px;
+  border-radius: 20px;
+  cursor: pointer;
+  border: 0.5px solid gray;
+  background-color: white;
+}
