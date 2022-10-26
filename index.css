@@ -1,6 +1,11 @@
 html{
   margin: 0;
   padding: 0;
+  height: 713px;
+  background-color: #4158D0;
+  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+  color: white
+  ;
 }
 body{
   font-family: 'Lora', serif;
@@ -28,7 +33,7 @@ font-family: 'Roboto Mono', monospace;
   height: 540px;
   margin: auto;
   border-radius: 10px;
-  border: 1px solid black;
+  border: 1px solid white;
 }
 #bill h2{
   text-align: center;
@@ -50,7 +55,7 @@ font-family: 'Roboto Mono', monospace;
 	text-align: center;
 }
 #menu1 td{
-  border: 1px solid black;
+  border: 1px solid white;
 }
 table td{
 	padding: 5px;
